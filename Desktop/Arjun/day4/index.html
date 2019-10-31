@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM </title>
+</head>
+<body onload="onloadFunction()">
+    <h1 class ="heading">javascript</h1>
+    <h1 class="heading">DOM</h1>
+    <p id="intro"> welcome you all</p>
+
+    <div id="paragr">
+
+
+    </div> 
+
+    <input type="text" id="textClass">
+    <input type="submit" name="Submit">
+
+    <ul id = 'prod'>
+
+        <li class= lichid> shoe</li>
+        <li class= lichid> dress</li>
+        <li class= lichid> bag</li>
+    </ul>
+
+    <button onclick="myfunction()">Try it</button>
+    <button onclick="dontMyFunction()">Dont try</button>
+
+    <p>Modify the text in the input field, then click outside the field to fire the onchange event.</p>
+    Enter some text:
+     <input type="text" name="txt" value="hai" onchange="onChangeFunction(this.value)">
+
+     <p>When you submit the form, a function is triggered which alerts some text.</p>
+
+<form action="/signup.html" onsubmit="onSubmitFunction(this)">
+  Enter name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+<h1>SIGN UP PLEASE</h1>
+<p>Please fill this form to create an account</p>
+
+    <script src="index.js"></script>
+</body>
+</html>
